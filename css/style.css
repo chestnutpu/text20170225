@@ -1,0 +1,44 @@
+body,h1,h2,h3,h4,div,p,ul,li,dl,dt,dd,span,a,img,em,i,strong,input,label,select,textarea,span{margin: 0;padding: 0;}
+li{list-style: none;}
+a{color:#fff;text-decoration: none;}
+a:hover{color:#fc0000;}
+img{border: 0;vertical-align: top;}
+body{font-family:"微软雅黑";font-size: 14px;color:#fff;background:#75a6ff;}
+.clearfix:before,.clearfix:after{
+			content: " ";
+			display: table;
+		}
+.clearfix:after{clear: both;}
+.layer{ width:1150px; margin: 0 auto;}
+
+.navigation{background:url(../img/bg.jpg) no-repeat center top;height:402px;}
+.title{height:89px;background:url(../img/titlebg.jpg)no-repeat center top;font-size:38.24px;font-weight: bold;text-align: center;padding-top: 19px;line-height: 38px;}
+.title span{display:block;font-size:18.54px;line-height:20px;color:#fffe99;}
+.peopleone{position:relative;background:url(../img/peopleone.jpg) no-repeat;height:639px;}
+.Leftquote{position:absolute;left:354px;font-size:60px;font-family:"方正兰亭准黑_GBK";padding-top: 6px;}
+.worlds{font-size:18px;font-weight:bold;line-height:18px;padding-top:32px;padding-left: 414px;}
+.worlds span{display:block;font-weight:normal;line-height:31px;}
+/*product*/
+.product{width:685px;overflow:hidden;margin-left: 389px;margin-top:4px;}
+
+.product-big li{float: left;width:333px;height:160px;background:#fff;margin:0 9px 7px 0;font-size:14px;color:#000;}
+.product-pic{float: left;margin-top:22px;}
+.product-both{float: left;margin-top:66px;margin-left:15px;}
+.product-both span{display:block;line-height:17px;}
+.product-price{font-size:16px;margin-top:10px;}
+.buynow{display:block;width:83px;height:23px;background:#000;border-radius: 2px;margin-top:7px;font-size:16px;text-align:center;margin-left:-4px;}
+
+/*product-small*/
+.product-small{width:685px;}
+.product-small li{float: left;width:162px;height:206px;margin: 3px 9px 0 0;background:#fff;}
+.product-small-pic img{margin-top:34px;margin-bottom:34px;}
+.product-small-words{display:block;width:115px;color:#000;text-align:center;line-height:17px;margin-bottom:3px;margin-left:17px;}
+
+/*运动服*/
+.AthleticWear-daohang{background:url(../img/title2.jpg) no-repeat;height:47px;width:990px;margin: 40px 0 20px 81px;}
+.daohanglink{margin-left:81px;}
+.daohanglink-product{width:190px;height:260px;background:#fff;}
+.daohanglink-product-pic{display:block;width:190px;height:190px;}
+.daohanglink-product-name{display:block;width:180px;font-size:14px;color:#000;margin-left:5px;line-height:28px;}
+.daohanglink-product-price{color:#ee6363;font-size:14px;line-height:20px;font-weight:bold;margin-left:7px;}
+.daohanglink-product-cost{display:block;color: #bbbbbb;font-size:12px;text-decoration:line-through;margin-top:2px;}
